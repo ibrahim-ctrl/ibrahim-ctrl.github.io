@@ -1,0 +1,22 @@
+{
+  "name": "school",
+  "version": "1.0.0",
+  "description": "web school",
+  "main": "(app.js)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahim-ctrl/ibrahim-ctrl.github.io.git"
+  },
+  "author": "ibra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibrahim-ctrl/ibrahim-ctrl.github.io/issues"
+  },
+  "homepage": "https://github.com/ibrahim-ctrl/ibrahim-ctrl.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
