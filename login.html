@@ -49,7 +49,7 @@
         password=password.tolowerCase();
 
         if (username == "ibrahim" && password=="12345"){
-            admin.html;
+            $http.get("customers.php");
         }
         else{
             alert("User name atau password sala!")
