@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylelogin.css">
+    <title>Login</title>
+</head>
+<body>
+    <div id = "card">
+        <div id="card-content">
+            <div id="card-title">
+                <h2>Login</h2>
+                <div class="underline-title">
+
+</div>
+</div>
+<form name="login">
+<label for="user-user" style="padding-top: 22px">&nbsp; Username
+</label>
+
+<input id="user-username" class="form-content" type="text" name="username" autocomplete="on" required/>
+<div class="form-border"></div>
+
+<label for="user-password" style="padding-top: 22px">&nbsp; Password
+</label>
+
+<input id="user-password" class="form-content" type="password" name="password" required/>
+<div class="form-border"></div>
+
+<a href="signup.php">
+    <legend id="forgot-pass">Belum Punya Akun?</legend>
+</a>
+
+<input id="submit-btn" type="submit" name="submit" value="LOGIN"/>
+
+<a href="" id="signup">Back</a>
+</from>
+
+</div>
+</div>
+<script type="text/javascript">
+    function login(){
+        var Username = document.login.username.value;
+        username = username.tolowerCase();
+        var Password = document.login.password.value;
+        password=password.tolowerCase();
+
+        if (username == "ibrahim" && password=="12345"){
+            admin.html;
+        }
+        else{
+            alert("User name atau password sala!")
+        }
+    }
+</script>
+<script type="text/javascript" src="angular.js"></script>
+</body>
+</html>
